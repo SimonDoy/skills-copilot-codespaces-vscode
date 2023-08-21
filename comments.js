@@ -66,7 +66,4 @@ router.post('/:postid', function(req, res, next) {
   var content = req.body.content;
 
   // create a new comment
-  var comment = new Comment({
-    postid: postid,
-
-
+  //var comment = {postid: postid}''
